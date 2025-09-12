@@ -1,0 +1,19 @@
+{
+  "name": "solhint-plugin-import-order-separation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  },
+  "files": [
+    "dist",
+    "index.ts"
+  ],
+  "peerDependencies": {}
+}
